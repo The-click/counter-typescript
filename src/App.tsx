@@ -45,7 +45,7 @@ function App() {
         }
         return <Counter countNum={e} key={e}/>}))
         }
-     <button className='counter__btn add__btn' onClick={() =>addNewCount()}>Add counter</button>
+     <button className='counter__btn add__btn' onClick={() =>addNewCount()}>Добавить счетчик</button>
     </div>
   );
 }
